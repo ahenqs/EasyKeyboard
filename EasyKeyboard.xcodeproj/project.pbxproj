@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B75CD9F61E0A5D1A00CC24A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75CD9F51E0A5D1A00CC24A0 /* AppDelegate.swift */; };
+		B75CD9F81E0A5D1A00CC24A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75CD9F71E0A5D1A00CC24A0 /* ViewController.swift */; };
+		B75CD9FB1E0A5D1A00CC24A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B75CD9F91E0A5D1A00CC24A0 /* Main.storyboard */; };
+		B75CD9FD1E0A5D1A00CC24A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B75CD9FC1E0A5D1A00CC24A0 /* Assets.xcassets */; };
+		B75CDA001E0A5D1A00CC24A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B75CD9FE1E0A5D1A00CC24A0 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B75CD9F21E0A5D1A00CC24A0 /* EasyKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B75CD9F51E0A5D1A00CC24A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B75CD9F71E0A5D1A00CC24A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B75CD9FA1E0A5D1A00CC24A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B75CD9FC1E0A5D1A00CC24A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B75CD9FF1E0A5D1A00CC24A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B75CDA011E0A5D1A00CC24A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B75CD9EF1E0A5D1A00CC24A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B75CD9E91E0A5D1900CC24A0 = {
+			isa = PBXGroup;
+			children = (
+				B75CD9F41E0A5D1A00CC24A0 /* EasyKeyboard */,
+				B75CD9F31E0A5D1A00CC24A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B75CD9F31E0A5D1A00CC24A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B75CD9F21E0A5D1A00CC24A0 /* EasyKeyboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B75CD9F41E0A5D1A00CC24A0 /* EasyKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B75CD9F51E0A5D1A00CC24A0 /* AppDelegate.swift */,
+				B75CD9F71E0A5D1A00CC24A0 /* ViewController.swift */,
+				B75CD9F91E0A5D1A00CC24A0 /* Main.storyboard */,
+				B75CD9FC1E0A5D1A00CC24A0 /* Assets.xcassets */,
+				B75CD9FE1E0A5D1A00CC24A0 /* LaunchScreen.storyboard */,
+				B75CDA011E0A5D1A00CC24A0 /* Info.plist */,
+			);
+			path = EasyKeyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B75CD9F11E0A5D1A00CC24A0 /* EasyKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B75CDA041E0A5D1A00CC24A0 /* Build configuration list for PBXNativeTarget "EasyKeyboard" */;
+			buildPhases = (
+				B75CD9EE1E0A5D1A00CC24A0 /* Sources */,
+				B75CD9EF1E0A5D1A00CC24A0 /* Frameworks */,
+				B75CD9F01E0A5D1A00CC24A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyKeyboard;
+			productName = EasyKeyboard;
+			productReference = B75CD9F21E0A5D1A00CC24A0 /* EasyKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B75CD9EA1E0A5D1900CC24A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "a h e n q s";
+				TargetAttributes = {
+					B75CD9F11E0A5D1A00CC24A0 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = YAF72RBM24;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B75CD9ED1E0A5D1A00CC24A0 /* Build configuration list for PBXProject "EasyKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B75CD9E91E0A5D1900CC24A0;
+			productRefGroup = B75CD9F31E0A5D1A00CC24A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B75CD9F11E0A5D1A00CC24A0 /* EasyKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B75CD9F01E0A5D1A00CC24A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75CDA001E0A5D1A00CC24A0 /* LaunchScreen.storyboard in Resources */,
+				B75CD9FD1E0A5D1A00CC24A0 /* Assets.xcassets in Resources */,
+				B75CD9FB1E0A5D1A00CC24A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B75CD9EE1E0A5D1A00CC24A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75CD9F81E0A5D1A00CC24A0 /* ViewController.swift in Sources */,
+				B75CD9F61E0A5D1A00CC24A0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B75CD9F91E0A5D1A00CC24A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B75CD9FA1E0A5D1A00CC24A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B75CD9FE1E0A5D1A00CC24A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B75CD9FF1E0A5D1A00CC24A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B75CDA021E0A5D1A00CC24A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B75CDA031E0A5D1A00CC24A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B75CDA051E0A5D1A00CC24A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YAF72RBM24;
+				INFOPLIST_FILE = EasyKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahenqs.EasyKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B75CDA061E0A5D1A00CC24A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YAF72RBM24;
+				INFOPLIST_FILE = EasyKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahenqs.EasyKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B75CD9ED1E0A5D1A00CC24A0 /* Build configuration list for PBXProject "EasyKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B75CDA021E0A5D1A00CC24A0 /* Debug */,
+				B75CDA031E0A5D1A00CC24A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B75CDA041E0A5D1A00CC24A0 /* Build configuration list for PBXNativeTarget "EasyKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B75CDA051E0A5D1A00CC24A0 /* Debug */,
+				B75CDA061E0A5D1A00CC24A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B75CD9EA1E0A5D1900CC24A0 /* Project object */;
+}
