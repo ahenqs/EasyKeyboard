@@ -12,6 +12,8 @@
 		B75CD9FB1E0A5D1A00CC24A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B75CD9F91E0A5D1A00CC24A0 /* Main.storyboard */; };
 		B75CD9FD1E0A5D1A00CC24A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B75CD9FC1E0A5D1A00CC24A0 /* Assets.xcassets */; };
 		B75CDA001E0A5D1A00CC24A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B75CD9FE1E0A5D1A00CC24A0 /* LaunchScreen.storyboard */; };
+		B75CDA081E0A605D00CC24A0 /* EasyKeyboardDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75CDA071E0A605D00CC24A0 /* EasyKeyboardDelegate.swift */; };
+		B75CDA0A1E0A677200CC24A0 /* EasyKeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75CDA091E0A677200CC24A0 /* EasyKeyboardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		B75CD9FC1E0A5D1A00CC24A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B75CD9FF1E0A5D1A00CC24A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B75CDA011E0A5D1A00CC24A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B75CDA071E0A605D00CC24A0 /* EasyKeyboardDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyKeyboardDelegate.swift; sourceTree = "<group>"; };
+		B75CDA091E0A677200CC24A0 /* EasyKeyboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyKeyboardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				B75CD9F51E0A5D1A00CC24A0 /* AppDelegate.swift */,
 				B75CD9F71E0A5D1A00CC24A0 /* ViewController.swift */,
+				B75CDA071E0A605D00CC24A0 /* EasyKeyboardDelegate.swift */,
+				B75CDA091E0A677200CC24A0 /* EasyKeyboardViewController.swift */,
 				B75CD9F91E0A5D1A00CC24A0 /* Main.storyboard */,
 				B75CD9FC1E0A5D1A00CC24A0 /* Assets.xcassets */,
 				B75CD9FE1E0A5D1A00CC24A0 /* LaunchScreen.storyboard */,
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B75CDA081E0A605D00CC24A0 /* EasyKeyboardDelegate.swift in Sources */,
 				B75CD9F81E0A5D1A00CC24A0 /* ViewController.swift in Sources */,
+				B75CDA0A1E0A677200CC24A0 /* EasyKeyboardViewController.swift in Sources */,
 				B75CD9F61E0A5D1A00CC24A0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +271,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YAF72RBM24;
 				INFOPLIST_FILE = EasyKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ahenqs.EasyKeyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,6 +285,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YAF72RBM24;
 				INFOPLIST_FILE = EasyKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ahenqs.EasyKeyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
